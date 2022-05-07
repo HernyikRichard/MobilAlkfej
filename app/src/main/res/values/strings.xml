@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Villanyorajelentes</string>
+    <string name="nev">nev</string>
+    <string name="bejelentkezes">Bejelentkezes</string>
+    <string name="jelszo">jelszó</string>
+    <string name="regist">Regisztráció</string>
+    <string name="memberId">Ügyfél szám</string>
+    <string name="email">Email</string>
+    <string name="cancel">Mégsem</string>
+    <string name="googleLogin">Google Bejelentkezés</string>
+    <string name="newElement">Új óra jelentés</string>
+    <string name="ra_ll_saim">Óra állásaim</string>
+    <string name="logOut">Kijelentkezés</string>
+    <string name="oraAllas">Óra állása</string>
+    <string name="OraAzonosito">Óra azonosító</string>
+    <string name="oraallas">Óra Állás\nBejelentés</string>
+    <string name="ra_ll_s_jelent_se">Óra állás Jelentése</string>
+    <string-array name="ugyfeltipus">
+        <item>Lakossági</item>
+        <item>Kis vállalati</item>
+        <item>Nagy vállalati</item>
+    </string-array>
+</resources>

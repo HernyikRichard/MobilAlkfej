@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:backgroundTint="#FF9800"
+    tools:context=".UjoraAllasActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="55dp"
+        android:text="@string/oraallas"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="67dp" />
+    <EditText
+        android:id="@+id/oraAllas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:background="#FF5722"
+        android:hint="@string/oraAllas"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <EditText
+        android:id="@+id/oraAzonosito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:background="#FF5722"
+        android:backgroundTint="#FF5722"
+        android:hint="@string/OraAzonosito"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/oraAllas"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ra_ll_s_jelent_se"
+        android:onClick="save"
+        android:backgroundTint="#FF5722"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="188dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

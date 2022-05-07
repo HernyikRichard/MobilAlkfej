@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699298291320",
+    "project_id": "androidszamla",
+    "storage_bucket": "androidszamla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699298291320:android:a32c30a0bc54960725d78d",
+        "android_client_info": {
+          "package_name": "hu.mobilalkfejl.villanyorajelentes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699298291320-22k452jvu0lf6t3niuj653t2m9ddv3r5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.mobilalkfejl.villanyorajelentes",
+            "certificate_hash": "b94a2f0199a79c99c4ed79be585890a4ff2b0734"
+          }
+        },
+        {
+          "client_id": "699298291320-43qr98s78o3tc10j1meqsh72973sqr62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTFCejj3s0o20YdzjR2iL_1hv-GL0l7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699298291320-43qr98s78o3tc10j1meqsh72973sqr62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
