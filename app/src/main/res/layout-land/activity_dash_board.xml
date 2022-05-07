@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".DashBoard">
+
+    <Button
+        android:id="@+id/ujOraJelentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="ujOraAllas"
+        android:padding="20dp"
+        android:text="@string/newElement"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/OraJelentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="oraAllasokInit"
+        android:padding="20dp"
+        android:text="@string/ra_ll_saim"
+        app:layout_constraintTop_toBottomOf="@+id/ujOraJelentes"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/kilep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="logout"
+        android:padding="20dp"
+        android:text="@string/logOut"
+        app:layout_constraintTop_toBottomOf="@+id/OraJelentes"
+   />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

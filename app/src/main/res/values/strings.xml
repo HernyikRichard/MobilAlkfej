@@ -14,6 +14,7 @@
     <string name="oraAllas">Óra állása</string>
     <string name="OraAzonosito">Óra azonosító</string>
     <string name="oraallas">Óra Állás\nBejelentés</string>
+    <string name="oraallasland">Óra Állás Bejelentés</string>
     <string name="ra_ll_s_jelent_se">Óra állás Jelentése</string>
     <string-array name="ugyfeltipus">
         <item>Lakossági</item>

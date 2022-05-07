@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/egyetem/6felev/MobilAlkfejl/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.11302083333333333" />
+        <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout-land/activity_dash_board.xml" value="0.32023289665211063" />
+        <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout-land/activity_regist.xml" value="0.36770833333333336" />
+        <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout-land/activity_ujora_allas.xml" value="0.36770833333333336" />
         <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout/activity_dash_board.xml" value="0.2" />
         <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout/activity_invoice.xml" value="0.25416666666666665" />
         <entry key="..\:/egyetem/6felev/Villanyorajelentes/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
