@@ -25,9 +25,14 @@ public class DashBoard extends AppCompatActivity {
         Intent intent = new Intent(this,UjoraAllasActivity.class);
         startActivity(intent);
     }
-
+    public void oraNullazas(View view) {
+        Intent intent = new Intent(this,AdatModositas.class);
+        startActivity(intent);
+    }
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut();
         finish();
     }
+
+
 }

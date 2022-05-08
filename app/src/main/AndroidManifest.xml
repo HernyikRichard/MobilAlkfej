@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Villanyorajelentes">
         <activity
+            android:name=".AdatModositas"
+            android:exported="false" />
+        <activity
             android:name=".UjoraAllasActivity"
             android:exported="false" />
         <activity

@@ -16,6 +16,7 @@
     <string name="oraallas">Óra Állás\nBejelentés</string>
     <string name="oraallasland">Óra Állás Bejelentés</string>
     <string name="ra_ll_s_jelent_se">Óra állás Jelentése</string>
+    <string name="oranullazasa">óra nullázása</string>
     <string-array name="ugyfeltipus">
         <item>Lakossági</item>
         <item>Kis vállalati</item>
